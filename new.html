@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OFFICIAL PAGE</title>
+    <style>
+        .half-colored {
+            position: relative;
+            display: inline-block;
+            color: red; /* Default color (first half) */
+        }
+        .half-colored::before {
+            content: "WELCOME TO MY OFFICIAL SITE"; /* Same letter as parent */
+            position: absolute;
+            top: 0;
+            bottom:0;
+            width: 100%;
+            height: 100%;
+            color: blue; /* Color of the second half */
+            clip-path: inset(50% 0 0 0); /* Show only the right half */
+        }
+        body{
+            border: solid;
+            font-family: Arial, sans-serif;
+            text-align:center;
+
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            background-color:#9e6969;
+                color:rgb(36, 24, 24);
+                padding: 0px, 5px;
+                text-align:center;
+                
+        }
+        P{
+            color: red;
+        }
+        .text{
+            color:#c4b944
+        }
+        body{
+            border: solid;
+            font-family: Arial, sans-serif;
+            padding:5px;
+        }
+        .circle-image{
+            width:40px;
+            height:40px;
+            border-radius:40%;
+            background-image: cover;
+            background-position: center;
+        
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span class="half-colored">" WELCOME TO MY OFFICIAL SITE "</span>
+        <image src="https://imgs.search.brave.com/By1IaAqWZt-otJxAOMFDOvanRMIarxQajVzOiriVCgY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9o/YWNrZXItbWFuLWxh/cHRvcF8xNDQ2Mjct/MjU1MjcuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA" align="down" width="40" alt="Circular Image" class="circle-image">
+
+    </h1>
+    <p>Lets learn somthing interesting</p> 
+    <body>
+        <header>
+            <image src="https://imgs.search.brave.com/cJAROyJYP609Nw1UssTlOz1Igp_VJgGqjqmKypZySho/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8w/Ny8yOC8yMi8wNS9j/aGlsZC04NjUxMTZf/XzM0MC5qcGc" align="down" width="400"><p class="text"> Learning is a journey, not a destination. Every day presents an opportunity to explore new ideas, acquire new skills, and broaden our horizons. Whether it's delving into the mysteries of science, understanding the art of communication, or mastering a new technology, the act of learning enriches our minds and empowers us to grow.
+
+                Let’s make learning a habit! Start small, stay curious, and never stop asking questions. Remember, every bit of knowledge you gain today shapes the person you’ll be tomorrow. So, let’s learn something new and exciting together!</p>
+            </header>
+        </body>
+    
+</body>
+</html>

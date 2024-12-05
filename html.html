@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(39, 91, 39);
+        text-align: center;
+
+    }
+    .tic_tac_toe{
+        border: solid black 1px;
+        color: burlywood;
+        display: flex;
+        justify-content: center;
+        
+    }
+    h1{
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 7vh;
+        color: transparent;
+        background: linear-gradient(red,blue);
+        -webkit-background-clip: text;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .turn{
+        display: flex;
+        margin-top: 1px;
+        justify-content:flex-end;
+        margin-right: 18vh;
+        font-size: 3vh;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right:7px;
+        color: aliceblue;
+    }
+    .game{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 7px;
+
+
+        height: 60vh;
+        width: 60vh;
+    }
+    .box{
+        border-radius: 9px;
+        height: 18vh;
+        width: 18vh;
+        color: rgb(113, 108, 52);
+        font-size: 7vh;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: rgb(113, 113, 52);
+       }
+       .box:hover{
+        background-color: gray;
+        background-position: center;
+        background-size: cover;
+
+        .half-color{
+        color: transparent;
+        background: linear-gradient(red ,blue );
+        -webkit-background-clip: text;
+        font-size: 9vh;
+        }
+       }
+      
+       .chall{
+        
+            color:transparent ;
+            background: linear-gradient(red,blue);
+            -webkit-background-clip: text;
+        
+       }
+       
+       .but{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       button{
+        margin-top: 3px;
+        height: 7vh;
+        width: 18vh;
+        background-color: grey;
+        color: darkblue;
+        font-weight: bold;
+        font-size: 2.5vh;
+       }
+       button:hover{
+        background-color: lightblue;
+       }
+       .frame{
+        margin-top: 7px;
+       }
+
+</style>
+<body>
+    <header>
+        <div class="tic_tac_toe">
+            <h1>TIC_TAC_TOE</h1>
+        </div>
+    </header>
+    <div class="turn">
+        <div class="player">
+            <pre class="chall">
+                player X score :
+                player 0 score :
+            </pre>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="game">
+        <div class="box"><p class="half-color">X</p></div>
+        <div class="box"><p class="half-color">0</p></div>
+        <div class="box"><p class="half-color">X</p></div>
+        <div class="box"><p class="half-color">0</p></div>
+        <div class="box"><p class="half-color">X</p></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        </div>
+
+
+    </div><!--container-->
+    <div class="but">
+        <button>Reset Game </button>
+    </div>
+    <div class="frame">
+        <iframe width="700" height="415" src="https://www.youtube.com/embed/KK6X-x3dM7Y?si=4YIKFFecpZ4EuZCL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+        </iframe>
+    </div>
+    
+    
+</body>
+</html>

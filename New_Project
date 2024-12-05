@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Half-Colored Letter</title>
+    <style>
+        .half-colored {
+            display: inline-block;
+            position: relative;
+            color: red; /* First half color */
+        }
+        .half-colored::before {
+            content: "A"; /* Same letter as the parent */
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            width: 50%; /* Cover half the letter */
+            overflow: hidden;
+            color: blue; /* Second half color */
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span class="half-colored">A</span>
+    </h1>
+</body>
+</html>
+  
